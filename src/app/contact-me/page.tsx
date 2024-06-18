@@ -4,26 +4,9 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/components/ui/use-toast";
 import { cn } from "@/utils/cn";
-import axios, { AxiosError } from "axios";
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { z } from "zod";
+import axios from "axios";
 
-interface ContactMeInterface {
-	firstname: string;
-	lastname: string;
-	email: string;
-	message: string;
-}
-
-const ContactMeSchema = z.object({
-	firstname: z.string(),
-	lastname: z.string(),
-	email: z.string().email(),
-	message: z.string(),
-});
-
-export default function page() {
+export default function Page() {
 	const { toast } = useToast();
 
 	function isFormDataValid(formDataObject: Record<string, any>) {
