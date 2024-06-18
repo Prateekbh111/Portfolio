@@ -32,6 +32,7 @@ export default function Page() {
 				description: "I think you have missed some fields !!!!",
 				variant: "destructive",
 			});
+			return;
 		}
 
 		try {

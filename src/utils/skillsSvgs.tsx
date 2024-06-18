@@ -1,6 +1,7 @@
 export const skillsSvgs = [
 	//nextjs
 	<svg
+		key="nextjs"
 		xmlns="http://www.w3.org/2000/svg"
 		width="100"
 		height="100"
@@ -14,6 +15,7 @@ export const skillsSvgs = [
 
 	//reactjs
 	<svg
+		key="reactjs"
 		xmlns="http://www.w3.org/2000/svg"
 		x="0px"
 		y="0px"
@@ -29,6 +31,7 @@ export const skillsSvgs = [
 
 	//nodejs
 	<svg
+		key="nodejs"
 		xmlns="http://www.w3.org/2000/svg"
 		x="0px"
 		y="0px"
@@ -44,6 +47,7 @@ export const skillsSvgs = [
 
 	//expressjs
 	<svg
+		key="expressjs"
 		xmlns="http://www.w3.org/2000/svg"
 		x="0px"
 		y="0px"
@@ -59,6 +63,7 @@ export const skillsSvgs = [
 
 	//mongodb
 	<svg
+		key="mongodb"
 		xmlns="http://www.w3.org/2000/svg"
 		x="-10px"
 		y="-50px"
@@ -75,6 +80,7 @@ export const skillsSvgs = [
 
 	//redis
 	<svg
+		key="redis"
 		xmlns="http://www.w3.org/2000/svg"
 		x="0px"
 		y="0px"
@@ -131,6 +137,7 @@ export const skillsSvgs = [
 	//javascript
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
+		key="javascript"
 		x="0px"
 		y="0px"
 		width="100"
@@ -146,6 +153,7 @@ export const skillsSvgs = [
 	//tailwindcss
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
+		key="tailwindcss"
 		x="0px"
 		y="0px"
 		width="100"
@@ -161,6 +169,7 @@ export const skillsSvgs = [
 	//typescript
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
+		key="typescript"
 		width="100"
 		height="100"
 		viewBox="0 0 50 50"
@@ -174,6 +183,7 @@ export const skillsSvgs = [
 	//c++
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
+		key="c++"
 		x="0px"
 		y="0px"
 		width="100"
@@ -189,6 +199,7 @@ export const skillsSvgs = [
 	//python
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
+		key="python"
 		x="0px"
 		y="0px"
 		width="100"
