@@ -10,6 +10,9 @@ export default function Page() {
 	const { toast } = useToast();
 
 	function isFormDataValid(formDataObject: Record<string, any>) {
+		if (Object.keys(formDataObject).length === 0) {
+			return false;
+		}
 		for (const key in formDataObject) {
 			if (!formDataObject[key]) {
 				return false;
