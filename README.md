@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Prateek Bhardwaj - Portfolio Website
 
-## Getting Started
+Welcome to my portfolio website! This repository contains the code for my personal portfolio, showcasing my skills, projects, and experience in the field of Computer Science and Engineering.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [About Me](#about-me)
+- [Technologies](#technologies)
+- [Projects](#projects)
+- [Education](#education)
+- [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About Me
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I am Prateek Bhardwaj, a 4th-semester Computer Science Engineering student at Lovely Professional University. I am proficient in multiple programming languages and have hands-on experience with various libraries and frameworks. I have a strong inclination towards problem-solving and I am eager to apply my academic knowledge to real-world projects.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies
 
-## Learn More
+Here are some of the technologies and tools I am proficient with:
 
-To learn more about Next.js, take a look at the following resources:
+- **Programming Languages:** C++, C, Java, Python, JavaScript, HTML/CSS, Embedded-C
+- **Web Development:**
+  - **Front-end:** React, HTML/CSS
+  - **Back-end:** Node.js, Express.js
+  - **Databases:** MongoDB, Firebase
+- **Libraries and Frameworks:**
+  - **React:** Redux, React Router, Axios
+  - **Node.js:** Express, Mongoose, Nodemon, Dotenv
+- **Tools and Platforms:**
+  - **Version Control:** Git, GitHub
+  - **IDEs:** Visual Studio Code, Atmel Studio
+  - **Other Tools:** Postman
+- **Concepts and Methodologies:**
+  - Data Structures and Algorithms (DSA)
+  - Object-Oriented Programming (OOP)
+  - Microcontroller Programming (AVR, PID Controller)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Projects
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Video Sharing App
 
-## Deploy on Vercel
+- Developed a functional backend for a video sharing app, tested with Postman. Implemented different models and schema.
+- **Technologies Used:** Node.js, Express, Mongoose, MongoDB, Nodemon, Dotenv
+- **Completion Date:** November 2023
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Food Ordering Project
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Developed an interactive food ordering website with features like placing orders, editing the cart, and updating user orders.
+- **Technologies Used:** React, Node.js
+- **Completion Date:** January 2024
+
+### SMD Rework Station
+
+- Developed software for a microcontroller-based product. Implemented a PID (Proportional–Integral–Derivative) controller to set the temperature based on the given value.
+- **Technologies Used:** C++, Embedded-C, AVR, Atmel Studio
+- **Completion Date:** March 2021
+
+## Education
+
+- **Bachelor in Technology, Computer Science**
+
+  - Lovely Professional University
+  - GPA: 8.04
+  - August 2022 - August 2026
+
+- **Higher Senior Secondary Education (CBSE)**
+
+  - School of Excellence, Delhi
+  - GPA: 8.66
+  - 2019 - 2020
+
+- **Senior Secondary Education (CBSE)**
+  - St. John's Public School, Delhi
+  - Percentage: 72%
+  - 2017 - 2018
+
+## Contact
+
+- **Phone:** +91 8076501002
+- **Email:** [prateekbh111@gmail.com](mailto:prateekbh111@gmail.com)
+- **LinkedIn:** [linkedin.com/in/prateekbh111](https://linkedin.com/in/prateekbh111)
+- **GitHub:** [github.com/Prateekbh111](https://github.com/Prateekbh111)
+
+Feel free to reach out to me for any queries or collaboration opportunities!
+
+---
+
+Thank you for visiting my portfolio website repository. I hope you find the information helpful and insightful.
