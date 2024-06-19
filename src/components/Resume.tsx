@@ -19,7 +19,7 @@ export default function Resume() {
 			>
 				<Link
 					href={
-						"https://drive.google.com/file/d/1rjVGJp1j6UidvT6hr98bF2h_GDhEHv8s/view?usp=drive_link"
+						"https://drive.google.com/file/d/1rjVGJp1j6UidvT6hr98bF2h_GDhEHv8s/view?usp=sharing"
 					}
 					target="_blank"
 				>
