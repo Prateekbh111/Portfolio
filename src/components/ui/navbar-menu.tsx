@@ -84,26 +84,36 @@ export const ProductItem = ({
 	description,
 	href,
 	src,
+	isLive = false,
 }: {
 	title: string;
 	description: string;
 	href: string;
 	src: string;
+	isLive?: boolean;
 }) => {
 	return (
 		<Link
 			href={href}
 			className="flex p-2 rounded-lg space-x-2 hover:dark:bg-neutral-800 hover:bg-neutral-300 "
 		>
-			<Image
-				src={src}
-				width={140}
-				height={70}
-				alt={title}
-				className="flex-shrink-0 rounded-md shadow-2xl"
-			/>
+			<div className="flex relative">
+				<Image
+					src={src}
+					width={140}
+					height={70}
+					alt={title}
+					className="flex-shrink-0 rounded-md shadow-2xl"
+				/>
+				{isLive && (
+					<span className="right-0 top-0 absolute flex h-3 w-3">
+						<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+						<span className="relative inline-flex rounded-full h-3 w-3 bg-blue-500"></span>
+					</span>
+				)}
+			</div>
 			<div>
-				<h4 className="text-xl font-bold mb-1 text-black dark:text-white">
+				<h4 className="flex text-xl font-bold mb-1 text-black dark:text-white">
 					{title}
 				</h4>
 				<p className="text-neutral-700 text-sm max-w-[10rem] dark:text-neutral-300">

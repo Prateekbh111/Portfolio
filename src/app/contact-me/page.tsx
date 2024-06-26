@@ -5,6 +5,7 @@ import { Label } from "@/components/ui/label";
 import { useToast } from "@/components/ui/use-toast";
 import { cn } from "@/utils/cn";
 import axios from "axios";
+import { FormEvent } from "react";
 
 export default function Page() {
 	const { toast } = useToast();
@@ -36,8 +37,8 @@ export default function Page() {
 		}
 
 		try {
-			console.log(formDataObject);
-			const response = await axios.post("/api/send-email", formDataObject);
+			e.currentTarget?.reset();
+			await axios.post("/api/send-email", formDataObject);
 			toast({
 				title: "Message sent.",
 				description: "Your message has been sent.",
@@ -68,7 +69,7 @@ export default function Page() {
 							<Input
 								name="firstname"
 								id="firstname"
-								placeholder="Sakshi"
+								placeholder="Prateek"
 								type="text"
 							/>
 						</LabelInputContainer>
@@ -87,7 +88,7 @@ export default function Page() {
 						<Input
 							name="email"
 							id="email"
-							placeholder="nandi.trisha@28.com"
+							placeholder="prateekbh111@gmail.com"
 							type="email"
 						/>
 					</LabelInputContainer>

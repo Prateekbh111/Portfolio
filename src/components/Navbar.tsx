@@ -63,22 +63,30 @@ export default function Navbar({ className }: { className?: string }) {
 					<MenuItem setActive={setActive} active={active} item="Projects">
 						<div className="text-sm grid grid-cols-2 gap-5">
 							<ProductItem
-								title="Chatwave"
-								href="https://github.com/Prateekbh111/Chatwave"
-								src="/ChatWave.png"
+								title="Chatwave 2.0"
+								href="https://prateekbh111-chatwave.vercel.app/"
+								src="/ChatWave2.0.png"
 								description="A Real-time chat application built using Next.js, Pusher and Redis"
+								isLive
 							/>
+
 							<ProductItem
 								title="Auth App"
-								href="https://tailwindmasterkit.com"
+								href="https://github.com/Prateekbh111/next-auth-app"
 								src="/AuthApp.png"
 								description="Next.js user authentication project with Nodemailer integration!"
 							/>
 							<ProductItem
 								title="MiniLink"
-								href="https://gomoonbeam.com"
+								href="https://github.com/Prateekbh111/Minilink"
 								src="/MiniLink.png"
 								description="A Web application that transform URLs into concise and shareable links."
+							/>
+							<ProductItem
+								title="Chatwave"
+								href="https://github.com/Prateekbh111/Chatwave"
+								src="/ChatWave.png"
+								description="A Real-time chat application built using Next.js, Pusher and Redis"
 							/>
 						</div>
 					</MenuItem>
