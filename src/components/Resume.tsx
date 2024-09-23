@@ -19,12 +19,12 @@ export default function Resume() {
 			>
 				<Link
 					href={
-						"https://drive.google.com/file/d/1XIftLHQe0SpcGRQDNn9ZLy4MjXpP5SZ7/view?usp=sharing"
+						"https://drive.google.com/file/d/1bK2iirRFy79Y2yhpbcVf-lPvJsWgR6wB/view?usp=sharing"
 					}
 					target="_blank"
 				>
 					<Image
-						src="/Prateek_CV.jpg"
+						src="/Prateek_CV.png"
 						alt=""
 						height={720}
 						width={1400}
